@@ -210,7 +210,7 @@ In the real world...
 
 - When a node is under pressure, kubelet places a `NoSchedule` taint
 
-  (to avoid adding more pods while the pod is under pressure)
+  (to avoid adding more pods while the node is under pressure)
 
 - Once the node is no longer under pressure, kubelet clears the taint
 
